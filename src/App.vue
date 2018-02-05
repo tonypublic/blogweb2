@@ -1,7 +1,7 @@
 <template>
   <v-app light id="app">
     <Header></Header>
-    <v-content>
+    <v-content class="body">
       <router-view></router-view>
     </v-content>
     <v-footer class="pa-3">
@@ -29,7 +29,7 @@ export default {
   /* color: #2c3e50; */
   background-color: rgb(239, 239, 239);
 }
-.content {
-  margin-top: 80px;
+.body {
+  margin-top: 40px;
 }
 </style>
