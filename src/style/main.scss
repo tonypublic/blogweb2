@@ -1,0 +1,20 @@
+@import '../../node_modules/vuetify/dist/vuetify.min.css';
+
+//排版辅助
+.italic {
+  font-style: italic
+}
+.box {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.siderbox-head {
+  display: block;
+  padding: 15px 20px;
+  letter-spacing: 1px;
+  color: #333;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.07);
+  border-bottom: 1px solid #eee;
+  z-index: 2;
+}
